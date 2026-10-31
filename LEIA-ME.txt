@@ -1,0 +1,21 @@
+IMAGENS DOS GATINHOS  -  como colocar para a planilha trocar o desenho sozinha
+
+Sao 39 arquivos .png (12 meses x 3 humores + 3 mascotes da aba Inicio).
+Os nomes precisam ficar EXATAMENTE assim (maiusculas e minusculas importam):
+  Jan_feliz.png  Jan_neutro.png  Jan_triste.png   ...   Dez_triste.png
+  Mascote_feliz.png  Mascote_neutro.png  Mascote_triste.png
+
+PASSO A PASSO (GitHub, gratis)
+ 1. Entre em github.com > botao verde "New" (novo repositorio).
+ 2. Nome: gatinhos   |   marque "Public"   |   "Create repository".
+ 3. Na pagina do repositorio, clique em "uploading an existing file".
+ 4. Arraste os 39 arquivos .png (ja descompactados) para a pagina e clique em "Commit changes".
+ 5. Teste no navegador (troque SEU_USUARIO pelo seu usuario do GitHub):
+      https://raw.githubusercontent.com/SEU_USUARIO/gatinhos/main/Jan_feliz.png
+    Se aparecer o gatinho, esta certo.
+ 6. Abra a planilha no Google Planilhas > aba "Config" > celula C22 ("Endereco da pasta") e cole:
+      https://raw.githubusercontent.com/SEU_USUARIO/gatinhos/main/
+    (com a barra no final; se esquecer, a planilha coloca sozinha)
+
+Pronto: o gatinho de cada mes passa a trocar de acordo com o saldo.
+Obs.: o repositorio e publico, entao qualquer pessoa com o link ve os desenhos (nao tem nada financeiro neles).
